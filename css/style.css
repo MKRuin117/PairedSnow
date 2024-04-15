@@ -2,6 +2,9 @@
     --clr-lightBlue: #7dfbff;
     --clr-lightGrey: #eeeeee;
     --clr-white: #fff;
+    --fs-big: 8rem;
+    --fs-medium: 4rem;
+    --fs-small: 2rem;
 }
 h1{
     text-align: center;
