@@ -1,5 +1,7 @@
 :root{
     --clr-lightBlue: #7dfbff;
+    --clr-lightGrey: #eeeeee;
+    --clr-white: #fff;
 }
 h1{
     text-align: center;
