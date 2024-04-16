@@ -48,6 +48,7 @@
 h1{
     text-align: center;
     font-size: var(--fs-big);
+    background-color: var(--clr-lightBlue);
 }
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -57,4 +58,6 @@ body{
 footer{
     text-align: center;
     font-size: var(--fs-small);
+    margin-top: 4rem;
+    transform: translateY(800%);
 }
