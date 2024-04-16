@@ -1,10 +1,11 @@
 :root{
     --clr-lightBlue: #7dfbff;
-    --clr-lightGrey: #eeeeee;
+    --clr-lightGrey: #dadada;
     --clr-white: #fff;
-    --fs-big: 8rem;
-    --fs-medium: 4rem;
-    --fs-small: 2rem;
+    --clr-gold: #f5f500;
+    --fs-big: 6rem;
+    --fs-medium: 2rem;
+    --fs-small: 1rem;
 }
 
 .sidenav{
@@ -14,7 +15,7 @@
     z-index: 1; /* Layers, 1 = on top*/
     top: 0; /* stay on the top*/
     left: 0; /* keep on leftside*/
-    background-color: rgb(67, 117, 209);
+    background-color: var(--clr-lightGrey);
     overflow-x: hidden; /* Disable to scroll horizontally*/
     padding-top: 60px; /* Places content 60px away from the top*/
     transition: 0.5s; /*transition effect to slide in nav*/
@@ -32,7 +33,7 @@
 
 /*Color of link when hovering over*/
 .sidenav a:hover {
-    color: white;
+    color: var(--clr-gold);
 }
 
 /*Postion of close button*/
@@ -46,6 +47,7 @@
 
 h1{
     text-align: center;
+    font-size: var(--fs-big);
 }
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -54,5 +56,5 @@ body{
 }
 footer{
     text-align: center;
-    font-size: small;
+    font-size: var(--fs-small);
 }
