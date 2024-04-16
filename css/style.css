@@ -69,3 +69,6 @@ footer{
     border: var(--clr-gold) solid 3px;
     border-radius: 12px;
 }
+.reports{
+    margin-left: 30%;
+}
