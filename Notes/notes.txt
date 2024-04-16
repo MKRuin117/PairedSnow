@@ -3,3 +3,28 @@ need to put the framework down for cards and carousel
 need to put links inside hamburger button // Done
 get images and possible some decoration
 set body color // Done
+
+
+
+
+
+
+
+Add to every new page
+///////////////////////////////////////////////////////
+    <div id="SideNav" class= "sidenav">
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../html/index.html">Index</a>
+        <a href="../html/Lesson.html">Lessons</a>
+        <a href="../html/Report.html">Snow Reports</a>
+        <a href="../html/Events.html">Events</a>
+        <a href="../html/Employment.html">Employment</a>
+    </div>
+    <span style="font-size: 30px;cursor: pointer;" onclick="openNav()"> &#9776;</span>
+
+        <footer>
+        <h4>Copyright 2024 &copy; All Rights Reserved</h4>
+    </footer>
+    <script src="../javascr/Function.js"></script>
+
+//////////////////////////////////////////////////////////
