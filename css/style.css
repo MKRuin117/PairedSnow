@@ -61,3 +61,11 @@ footer{
     margin-top: 4rem;
     transform: translateY(800%);
 }
+.front-card{
+    border-radius: 7px;
+    border: var(--clr-gold) solid 3px;
+}
+.carousel{
+    border: var(--clr-gold) solid 3px;
+    border-radius: 12px;
+}
