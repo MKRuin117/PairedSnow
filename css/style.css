@@ -6,6 +6,44 @@
     --fs-medium: 4rem;
     --fs-small: 2rem;
 }
+
+.sidenav{
+    height: 100%; /* 100% = Full height of screen*/
+    width: 0px; /* 0 width- will change with javascript*/
+    position: fixed; /* Keeps in place*/
+    z-index: 1; /* Layers, 1 = on top*/
+    top: 0; /* stay on the top*/
+    left: 0; /* keep on leftside*/
+    background-color: rgb(67, 117, 209);
+    overflow-x: hidden; /* Disable to scroll horizontally*/
+    padding-top: 60px; /* Places content 60px away from the top*/
+    transition: 0.5s; /*transition effect to slide in nav*/
+}
+
+/*Style of text in sideNav*/
+.sidenav a {
+    padding:  8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+/*Color of link when hovering over*/
+.sidenav a:hover {
+    color: white;
+}
+
+/*Postion of close button*/
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
 h1{
     text-align: center;
 }
