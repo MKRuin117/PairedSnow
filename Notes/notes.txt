@@ -1,5 +1,5 @@
-hamburger button doesn't work, fix later
+hamburger button doesn't work, fix later // Fixed
 need to put the framework down for cards and carousel
-need to put links inside hamburger button
+need to put links inside hamburger button // Done
 get images and possible some decoration
-set body color
+set body color // Done
