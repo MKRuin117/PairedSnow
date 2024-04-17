@@ -10,6 +10,7 @@ style carousel
 resize images in carousel
 implement control in carousel
 add images to carousel
+make site responsive
 
 
 
