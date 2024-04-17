@@ -16,6 +16,10 @@ add images to carousel
 
 Add to every new page
 ///////////////////////////////////////////////////////
+    <link rel="stylesheet" href="../css/style.css">
+
+
+
     <div id="SideNav" class= "sidenav">
         <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="../html/index.html">Home</a>
