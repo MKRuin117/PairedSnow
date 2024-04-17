@@ -7,7 +7,7 @@ get images and possible some decoration
 set body color // Done
 style cards
 style carousel
-resize images in cards/carousel
+resize images in carousel
 implement control in carousel
 add images to carousel
 
