@@ -84,3 +84,16 @@ footer{
 .reports{
     margin-left: 30%;
 }
+.contact-methods{
+    margin-left: 35%;
+    padding-bottom: 50px;
+}
+.contact-opening, .contact-closing{
+    text-align: center;
+}
+.employment-guide{
+    margin-left: 20%;
+}
+.employment-opening{
+    text-align: center;
+}
