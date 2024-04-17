@@ -78,3 +78,10 @@ footer{
     justify-content: center;
     /*fix later*/
 }
+.employment-guide{
+    padding: 15px;
+    margin-left: 20%;
+}
+h3{
+    text-align: center;
+}
