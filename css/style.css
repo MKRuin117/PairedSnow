@@ -62,9 +62,20 @@ footer{
     transform: translateY(800%);
 }
 .front-card{
+    transform: translateX(55%);
+    display: grid;
+    grid-template-columns: 1fr;
     border-radius: 7px;
     border: var(--clr-gold) solid 3px;
-    padding: 20px;
+    width: 32rem;
+    align-items: center;
+    margin: 10rem;
+}
+.front-card img{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    
 }
 .carousel{
     border: var(--clr-gold) solid 3px;
@@ -72,16 +83,4 @@ footer{
 }
 .reports{
     margin-left: 30%;
-}
-.carousel-image{
-    align-items: center;
-    justify-content: center;
-    /*fix later*/
-}
-.employment-guide{
-    padding: 15px;
-    margin-left: 20%;
-}
-h3{
-    text-align: center;
 }
