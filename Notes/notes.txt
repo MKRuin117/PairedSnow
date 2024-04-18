@@ -1,17 +1,19 @@
 To do:
 
-hamburger button doesn't work, fix later // Fixed
-need to put the framework down for carousel
-need to put links inside hamburger button // Done
-get images and possible some decoration
-set body color // Done
-style cards
-style carousel
-resize images in carousel
-implement control in carousel
-add images to carousel
-make site responsive
-
+hamburger button doesn't work, fix later            [X]
+need to put the framework down for carousel         []
+need to put links inside hamburger button           [X]
+get images and possible some decoration             []
+set body color                                      [X]
+style cards                                         []
+style carousel                                      []
+resize images in carousel                           []
+implement control in carousel                       []
+add images to carousel                              []
+make site responsive                                []
+get camping images                                  []
+make camping page                                   []
+camping rates, sale and JavaScript                  []
 
 
 
