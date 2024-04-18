@@ -3,8 +3,8 @@
     --clr-lightGrey: #dadada;
     --clr-white: #fff;
     --clr-gold: #c4c442;
-    --fs-big: 6rem;
-    --fs-medium: 2rem;
+    --fs-big: 2rem;
+    --fs-medium: 1.5rem;
     --fs-small: 1rem;
 }
 
@@ -106,6 +106,25 @@ footer{
 .card-text{
     text-align: center;
 }
+.LessonHead{
+}
+.lessons-header{
+    text-align: center;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color:var(--clr-gold);
+    background-color: var(--clr-lightBlue);
+    height: 4rem;
+    padding-top: 2rem;
+    font-size: var(--fs-big);
+    
+}
+.lessonText{
+    font-size: var(--fs-medium);
+    text-align: center;
+}
 .RegSect{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -126,12 +145,7 @@ footer{
     border-style: solid;
     border-color: var(--clr-gold);
 }
-.RegItem p{
-    border-style: solid;
-    border-color: var(--clr-gold);
-    
-}
-a{
+.RegLink a{
   color: black;  
   text-decoration: none;
 }
