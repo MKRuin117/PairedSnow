@@ -67,7 +67,7 @@ footer{
     grid-template-columns: 1fr;
     border-radius: 7px;
     border: var(--clr-gold) solid 3px;
-    width: 32rem;
+    max-width: 32rem;
     align-items: center;
     margin: 10rem;
     background-color: var(--clr-white);
@@ -81,6 +81,10 @@ footer{
 .carousel{
     border: var(--clr-gold) solid 3px;
     border-radius: 12px;
+    max-width: 32rem;
+    transform: translateX(55%);
+    align-items: center;
+    margin: 10rem;
 }
 .reports{
     margin-left: 30%;
