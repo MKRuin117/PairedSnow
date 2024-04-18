@@ -10,3 +10,7 @@ function closeNav() {
 
 let minNights = 2;
 
+const MountRetreat = {
+    costPerNight: 50,
+    name: "Mountain Retreat",
+}
