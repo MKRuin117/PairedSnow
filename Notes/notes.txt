@@ -35,7 +35,7 @@ Add to every new page
     </div>
     <span style="font-size: 30px;cursor: pointer;" onclick="openNav()"> &#9776;</span>
 
-        <footer>
+    <footer>
         <h4>Copyright 2024 &copy; All Rights Reserved</h4>
     </footer>
     <script src="../javascr/Function.js"></script>
