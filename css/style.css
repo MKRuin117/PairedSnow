@@ -85,6 +85,7 @@ footer{
     transform: translateX(55%);
     align-items: center;
     margin: 10rem;
+    overflow-x: hidden;
 }
 .reports{
     margin-left: 30%;
