@@ -70,6 +70,7 @@ footer{
     width: 32rem;
     align-items: center;
     margin: 10rem;
+    background-color: var(--clr-white);
 }
 .front-card img{
     width: 100%;
