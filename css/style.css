@@ -105,6 +105,18 @@ footer{
 .card-text{
     text-align: center;
 }
+.lessons-header{
+    text-align: center;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color:var(--clr-gold);
+    background-color: var(--clr-lightBlue);
+    height: 4rem;
+    padding-top: 2rem;
+    
+}
 .RegSect{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -125,12 +137,7 @@ footer{
     border-style: solid;
     border-color: var(--clr-gold);
 }
-.RegItem p{
-    border-style: solid;
-    border-color: var(--clr-gold);
-    
-}
-a{
+.RegLink a{
   color: black;  
   text-decoration: none;
 }
