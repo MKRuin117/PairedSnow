@@ -8,14 +8,15 @@ set body color                                      [X]
 style cards                                         []
 style carousel                                      [X]
 resize images in carousel                           [X]
-implement control in carousel                       []
-add images to carousel                              []
+implement control in carousel (JS)                  []
+add images to carousel                              [X]
 make site responsive                                []
 get camping images                                  []
 make camping page                                   []
 camping rates, sale and JavaScript                  []
 implement rental agreement (the legal pdf)          []
-weather API                                         []
+weather API                                         [X]
+links in the contact page                           [X]
 
 
 
