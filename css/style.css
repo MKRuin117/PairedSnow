@@ -182,3 +182,16 @@ max-height: 100%;
 .camping-image{
     max-height: 10rem;
 }
+.employment-options{
+    margin-left: 43%;
+}
+.employment-details{
+    margin-left: 30%;
+    max-width: 40%;
+}
+.employment-position{
+    font-size: var(--fs-medium);
+    padding-bottom: 15px;
+}
+.employment-pos-inner{
+}
