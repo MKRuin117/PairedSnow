@@ -166,6 +166,7 @@ max-height: 100%;
     border-style: ridge;
     border-color: var(--clr-darkGrey);
     width: 20rem;
+    transform: translateX(145%);
 }
 .field{
     margin: 5px;
