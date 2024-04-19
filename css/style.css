@@ -177,3 +177,9 @@ max-height: 100%;
     grid-template-columns: .5fr .5fr;
     align-content: left;
 }
+.camping-holder{
+    max-width: max-content;
+}
+.camping-image{
+    max-height: 10rem;
+}
