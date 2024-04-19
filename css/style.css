@@ -82,17 +82,22 @@ footer{
 .carousel{
     border: var(--clr-gold) solid 3px;
     border-radius: 12px;
-    max-width: 32rem;
+    max-width: 45rem;
     transform: translateX(55%);
     align-items: center;
     margin: 10rem;
     overflow-x: hidden;
+    margin-left: -3rem;
+}
+.carousel-image{
+max-width: 100%;
+max-height: 100%;
 }
 .reports{
-    margin-left: 30%;
+    margin-left: 35%;
 }
 .contact-methods{
-    margin-left: 35%;
+    margin-left: 40%;
     padding-bottom: 50px;
 }
 .contact-opening, .contact-closing{
