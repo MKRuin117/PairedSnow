@@ -234,3 +234,8 @@ label{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.event-img{
+    width: 175px;
+    height: 175px;
+    margin-left: 7%;
+}
