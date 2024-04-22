@@ -22,4 +22,4 @@ const Hotel2 = {
 
 const discountedApril = new Date();
 
-discountedApril.s
+discountedApril.setFullYear()
