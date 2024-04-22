@@ -19,3 +19,7 @@ const Hotel2 = {
     costPerNight: 40,
     name: "Trail Getaway",
 }
+
+const discountedApril = new Date();
+
+discountedApril.s
