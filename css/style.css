@@ -46,6 +46,7 @@
     margin-left: 50px;
 }
 
+/*Front Page*/
 h1{
     text-align: center;
     font-size: var(--fs-big);
@@ -93,9 +94,13 @@ footer{
 max-width: 100%;
 max-height: 100%;
 }
+
+/*Snow Reports*/
 .reports{
     margin-left: 35%;
 }
+
+/*Contact*/
 .contact-methods{
     margin-left: 40%;
     padding-bottom: 50px;
@@ -103,15 +108,12 @@ max-height: 100%;
 .contact-opening, .contact-closing{
     text-align: center;
 }
-.employment-guide{
-    margin-left: 20%;
-}
-.employment-opening{
-    text-align: center;
-}
+
 .card-text{
     text-align: center;
 }
+
+/*Lessons*/
 .LessonHead{
 
 }
@@ -132,6 +134,8 @@ max-height: 100%;
     font-size: var(--fs-medium);
     text-align: center;
 }
+
+/*Camping*/
 .RegSect{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -190,6 +194,8 @@ label{
 .camping-image{
     max-height: 5rem;
 }
+
+/*Employment*/
 .employment-options{
     margin-left: 43%;
 }
@@ -206,4 +212,25 @@ label{
 }
 #indeed-post{
     padding-top: 5rem;
+}
+.employment-guide{
+    margin-left: 20%;
+}
+.employment-opening{
+    text-align: center;
+}
+
+/*Events*/
+.events-list{
+    margin-left: 40%;
+    padding-top: 50px;
+    max-width: 20%;
+}
+.event-item{
+    width: 220px;
+    background-color: var(--clr-lightBlue);
+}
+.event-inner{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
