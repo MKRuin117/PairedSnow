@@ -145,6 +145,9 @@ max-height: 100%;
 }
 
 /*Camping*/
+.CampHeader{
+    text-align: center;
+}
 .RegSect{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -287,9 +290,6 @@ label{
         width: 20rem;
         z-index: 100;
         margin-left: -15rem;
-    }
-    .CampHeader{
-        text-align: center;
     }
     .reports{
         margin-left: 6%;
