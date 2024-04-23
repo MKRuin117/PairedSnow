@@ -61,3 +61,16 @@ if(discountedMay <= month && discountedMayDay <= day){
         disCostPerNight1 = Hotel.costPerNight * .1;
         disCostPerNight2 = Hotel2.costPerNight * .1;
     }
+
+let totalDiscount;
+let TotalCostPerNight;
+
+if(RadioNodeList = 0){
+    totalDiscount = disCostPerNight1 + weekDiscount;
+    TotalCostPerNight = Hotel.costPerNight - totalDiscount;
+}
+
+if(RadioNodeList = 1){
+    totalDiscount = disCostPerNight2 + weekDiscount;
+    TotalCostPerNight = Hotel.costPerNight - totalDiscount;
+}
