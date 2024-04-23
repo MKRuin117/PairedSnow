@@ -50,4 +50,3 @@ if(discountedMay <= month && discountedMayDay <= day){
     disCostPerNight1 = Hotel.costPerNight * .1;
     disCostPerNight2 = Hotel2.costPerNight * .1;
 }
-let totalCost = 
