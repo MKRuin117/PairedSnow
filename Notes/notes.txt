@@ -10,7 +10,7 @@ style carousel                                      [X]
 resize images in carousel                           [X]
 implement control in carousel (JS)                  []
 add images to carousel                              [X]
-make site responsive                                []
+make site responsive                                [X]
 get camping images                                  [X]
 make camping page                                   [X]
 camping rates, sale and JavaScript                  []
@@ -22,8 +22,8 @@ reponsiveness: Lessons                              [X]
 reponsiveness: Camping                              [X]
 reponsiveness: Snow Reports                         [X]
 reponsiveness: Events                               [X]
-reponsiveness: Employment                           []
-reponsiveness: Contact Us                           []
+reponsiveness: Employment                           [X]
+reponsiveness: Contact Us                           [X]
 
 
 Add to every new page
@@ -39,6 +39,7 @@ Add to every new page
         <a href="../html/Report.html">Snow Reports</a>
         <a href="../html/Events.html">Events</a>
         <a href="../html/Employment.html">Employment</a>
+        <a href="../html/Contact.html">Contact Us</a>
     </div>
     <span style="font-size: 30px;cursor: pointer;" onclick="openNav()"> &#9776;</span>
 
