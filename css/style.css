@@ -99,6 +99,12 @@ max-height: 100%;
 .reports{
     margin-left: 35%;
 }
+.reports-header{
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
+}
 
 /*Contact*/
 .contact-methods{
@@ -115,7 +121,7 @@ max-height: 100%;
 
 /*Lessons*/
 .LessonHead{
-
+    
 }
 .lessons-header{
     text-align: center;
@@ -132,6 +138,9 @@ max-height: 100%;
 }
 .lessonText{
     font-size: var(--fs-medium);
+    text-align: center;
+}
+.Registration{
     text-align: center;
 }
 
@@ -238,4 +247,65 @@ label{
     width: 175px;
     height: 175px;
     margin-left: 7%;
+}
+
+/*responsiveness*/
+@media screen and (max-width: 500px){
+    body{
+        overflow-x: hidden;
+    }
+    .front-card{
+        transform: translateX(30%);
+        max-width: 20rem;
+        max-height: 30rem;
+        margin-left: 1rem;
+    }
+    .carousel{
+        max-width: 45rem;
+        transform: translateX(35%);
+        overflow-x: hidden;
+        margin-bottom: -30rem;
+    }
+    .lessonText{
+        width: 20rem;
+        margin-left: 5rem;
+    }
+    .RegSect{
+        margin-bottom: -10rem;
+    }
+    .Registration{
+        width: 100%;
+        text-align: center;
+    }
+    .CampSect{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        border-style: ridge;
+        width: 20rem;
+        z-index: 100;
+        margin-left: -15rem;
+    }
+    .CampHeader{
+        text-align: center;
+    }
+    .reports{
+        margin-left: 6%;
+    }
+    .events-list{
+        margin-left: 20%;
+        padding-top: 50px;
+        max-width: 20%;
+    }
+    .event-inner{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 10rem;
+        margin-left: 20px;
+    }
+    .event-img{
+        margin-left: 20px;
+    }
 }

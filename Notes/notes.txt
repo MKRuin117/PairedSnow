@@ -14,10 +14,16 @@ make site responsive                                []
 get camping images                                  [X]
 make camping page                                   [X]
 camping rates, sale and JavaScript                  []
-implement rental agreement (the legal pdf)          []
+implement rental agreement (the legal pdf)          [X]
 weather API                                         [X]
 links in the contact page                           [X]
-
+reponsiveness: Home                                 [X]
+reponsiveness: Lessons                              [X]
+reponsiveness: Camping                              [X]
+reponsiveness: Snow Reports                         [X]
+reponsiveness: Events                               [X]
+reponsiveness: Employment                           []
+reponsiveness: Contact Us                           []
 
 
 Add to every new page
