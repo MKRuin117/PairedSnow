@@ -37,16 +37,24 @@ month.getMonth();
 
 let day = new Date();
 day.getDate();
+
+let Weekday = new Date();
+Weekday.getDay();
+
 let disCostPerNight1;
 let disCostPerNight2;
 
-if (discountedApril <= month && discountedAprilDay <= day){
-    disCostPerNight1 = Hotel.costPerNight * .2;
-    disCostPerNight2 = Hotel2.costPerNight * .2;
+if(Weekday = 1 ||  2 || 3){
+    if (discountedApril <= month && discountedAprilDay <= day){
+        disCostPerNight1 = Hotel.costPerNight * .2;
+        disCostPerNight2 = Hotel2.costPerNight * .2;
 
+    }
+
+    if(discountedMay <= month && discountedMayDay <= day){
+        disCostPerNight1 = Hotel.costPerNight * .1;
+        disCostPerNight2 = Hotel2.costPerNight * .1;
+    }
 }
 
-if(discountedMay <= month && discountedMayDay <= day){
-    disCostPerNight1 = Hotel.costPerNight * .1;
-    disCostPerNight2 = Hotel2.costPerNight * .1;
-}
+
