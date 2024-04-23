@@ -6,7 +6,7 @@ function closeNav() {
     document.getElementById("SideNav").style.width = "0px";
 }
 
-
+//javascript :O
 
 let minNights = 2;
 
