@@ -21,5 +21,24 @@ const Hotel2 = {
 }
 
 const discountedApril = new Date();
+const discountedAprilDay = new Date();
 
-discountedApril.setFullYear()
+discountedApril.setMonth(3);
+discountedAprilDay.setDate(30)
+
+const discountedMay = new Date();
+const discountedMayDay = new Date();
+
+discountedMay.setMonth(4);
+discountedMayDay.setDate(31);
+
+let month = new Date();
+month.getMonth();
+
+let day = new Date();
+day.getDate();
+let disCostPerNight;
+
+if (discountedApril < month && discountedAprilDay <= day){
+    disCostPerNight = Hotel.costPerNight * .2;
+}
