@@ -74,3 +74,22 @@ if(RadioNodeList = 1){
     totalDiscount = disCostPerNight2 + weekDiscount;
     TotalCostPerNight = Hotel.costPerNight - totalDiscount;
 }
+
+const StartDay = new Date('calender')
+const EndDay = new Date('calender2')
+let totalStaymillsecs = Math.abs(EndDay - StartDay);
+let totalstay = Math.ceil(totalStaymillsecs / (1000 * 60 *60 * 24));
+
+if(totalstay < minNights){
+    let elOopsie = document.getElementById('oopsie')
+    elOopsie.innerHTML = "The minimum amount of nights is 2";
+
+}
+
+let TotalCost = TotalCostPerNight * totalstay;
+
+let output = document.getElementsByClassName('costOutput')
+output.innerText = TotalCost;
+
+
+
