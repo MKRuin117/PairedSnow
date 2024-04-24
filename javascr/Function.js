@@ -46,7 +46,7 @@ let disCostPerNight2;
 let weekDiscount;
 let weekDiscount2;
 
-if(Weekday = 1 ||  2 || 3){
+if(Weekday = 2 ||  3 || 4){
     weekDiscount = Hotel.costPerNight * .1;
     weekDiscount2 = Hotel2.costPerNight * .1;
 }

@@ -188,6 +188,11 @@ max-height: 100%;
 label{
     z-index: 4;
 }
+#whencamp{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
 .field{
     margin: 5px;
 }
