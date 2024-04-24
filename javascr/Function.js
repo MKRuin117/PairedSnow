@@ -75,8 +75,8 @@ if(RadioNodeList = 1){
     TotalCostPerNight = Hotel.costPerNight - totalDiscount;
 }
 
-const StartDay = new Date('calender')
-const EndDay = new Date('calender2')
+const StartDay = new Date(document.getElementById('calender'))
+const EndDay = new Date(document.getElementById('calender2'))
 let totalStaymillsecs = Math.abs(EndDay - StartDay);
 let totalstay = Math.ceil(totalStaymillsecs / (1000 * 60 *60 * 24));
 
